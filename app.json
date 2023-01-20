@@ -3,7 +3,7 @@
     "name": "correction",
     "slug": "correction",
     "version": "1.0.0",
-    "sdkVersion": "47.0.12",
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.n0tchris.correction"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d975afb-ea3c-45fe-8a09-7e1e0e05158c"
+      }
     }
   }
 }
